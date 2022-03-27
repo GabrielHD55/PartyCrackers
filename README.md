@@ -8,4 +8,4 @@ Commands:
  - /crackers
  - /cracker
 
-**This plugin was coded in java 17 and with spigot 1.18.1
+**This plugin was coded in java 17 and with spigot 1.18.1**
