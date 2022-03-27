@@ -1,0 +1,75 @@
+Crackers:
+  # You can add multiple PartyCrackers and configure them to your liking.
+  Custom:
+    DisplayName: "&aParty Cracker"
+    Item:
+      # Custom name of the PartyCracker item.
+      Name: "&aParty Cracker"
+      # ID of the PartyCracker item.
+      ID: "COOKIE"
+      Lore:
+        - ""
+      # This option is in case you want the item to shine
+      Glow: true
+      # Add the enchantments in the format of
+      # "ENCHANT:LEVEL"
+      Enchants: []
+    # Time it will take for the cracker to explode.
+    ExplosionTime: 10 # NOTE: Time in seconds.
+    ExplosionRange: 3 # NOTE: Range in blocks.
+    # When the partycracker is about to explode
+    # it will create a range of particles forming a circle
+    ExplosionSpHere: true
+    # If you want the hollow, set it to true
+    SphereHollow: false
+    # When it explodes, lightning will fall
+    StrikeLightningEffect: true
+    Effects:
+      # Effect when PartyCracker is exploding
+      Exploding:
+        Sound: "ENTITY_TNT_PRIMED"
+        Effect: "FLAME"
+        Speed: 0
+        Amount: 50
+      # Effect when the PartyCracker exploded
+      Explode:
+        Sound: "ENTITY_GENERIC_EXPLODE"
+        Effect: "EXPLOSION_LARGE"
+        Speed: 0
+        Amount: 100
+    Rewards:
+      1:
+        # If you want the reward to have a custom name, leave blank if you don't want.
+        Name: ""
+        ID: "GOLD_INGOT"
+        Lore:
+          - ""
+        # Number of items that are dropped from this reward
+        Amount: 4
+        Glow: false
+        # This is the probability that this item will drop
+        # NOTE: Use 100 to make this reward always drop or use 0 to never drop it
+        Chance: 60
+        Enchants: []
+      2:
+        Name: "&aCustom Sword"
+        ID: "DIAMOND_SWORD"
+        Lore:
+          - ""
+        Amount: 1
+        Glow: false
+        Chance: 20
+        Enchants:
+          - "SHARPNESS:10"
+          - "UNBREAKING:3"
+      3:
+        Name: "&aNOTE"
+        ID: PAPER
+        Lore:
+          - "&7Hello! My name is Gabriel"
+          - "&7Nice to meet you!"
+        Amount: 5
+        Glow: false
+        Chance: 100
+        Enchants:
+          - "UNBREAKING:3"

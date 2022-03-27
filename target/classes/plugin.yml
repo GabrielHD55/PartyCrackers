@@ -1,0 +1,13 @@
+name: PartyCrackers
+version: 1.0.4-SNAPSHOT
+main: com.gabrielhd.partycrackers.Main
+author: GabrielHD55
+api-version: 1.18
+description: A simple mini-plugin that gives players party crackers
+commands:
+  partycrackers:
+    usage: /<command>
+    aliases:
+      - partycracker
+      - crackers
+      - cracker

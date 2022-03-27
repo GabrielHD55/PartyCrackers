@@ -1,0 +1,6 @@
+NoPermissions: "&cYou do not have permissions to use this command"
+PlayerNotOnline: "&cThis player isn't online"
+CrackerNotExists: "&cThis partycracker does not exist"
+CrackerReceived: "&aYou have received a %name% %displayname%"
+CrackerGiven: "&aYou gave a %name% %displayname%"
+OnlyPlayers: "&cThis command can only be executed by a player"
